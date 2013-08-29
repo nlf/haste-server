@@ -1,14 +1,10 @@
 {
-
-  "host": "0.0.0.0",
+  "host": "127.0.0.1",
   "port": 7777,
 
   "keyLength": 10,
-
   "maxLength": 400000,
-
   "staticMaxAge": 86400,
-
   "recompressStaticAssets": true,
 
   "logging": [
@@ -24,15 +20,10 @@
   },
 
   "storage": {
-    "type": "redis",
-    "host": "0.0.0.0",
-    "port": 6379,
-    "db": 2,
-    "expire": 2592000
+    "type": "file",
+    "path": "/home/hastebin/data",
   },
-
   "documents": {
     "about": "./about.md"
   }
-
 }

@@ -21,7 +21,7 @@
 
   "storage": {
     "type": "file",
-    "path": "/home/hastebin/data",
+    "path": "/home/hastebin/data"
   },
   "documents": {
     "about": "./about.md"
